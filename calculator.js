@@ -17,3 +17,19 @@ document.getElementById("btn2").addEventListener("click", ()=>{
 
     output.innerHTML = parseInt(field1-field2);
 });
+
+document.getElementById("btn3").addEventListener("click", ()=>{ 
+    let field1 = parseInt(document.getElementById("num1").value);
+    let field2 = parseInt(document.getElementById("num2").value); 
+    let output = document.getElementById("output");
+
+    output.innerHTML = parseInt(field1*field2);
+});
+
+document.getElementById("btn4").addEventListener("click", ()=>{ 
+    let field1 = parseInt(document.getElementById("num1").value);
+    let field2 = parseInt(document.getElementById("num2").value); 
+    let output = document.getElementById("output");
+
+    output.innerHTML = parseInt(field1/field2);
+});
